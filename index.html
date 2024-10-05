@@ -10,20 +10,23 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
             font-family: 'JetBrains Mono', monospace;
+            padding: 20px;
         }
         .container {
             display: flex;
             flex-direction: column;
             align-items: center;
+            max-width: 800px;
+            width: 100%;
         }
         h1 {
             font-weight: bold;
             margin-bottom: 20px;
             font-size: 36px;
-            color: #00000;
+            color: #000000;
         }
         .image {
             width: 300px;
@@ -40,11 +43,23 @@
         .links {
             display: flex;
             justify-content: center;
+            margin-bottom: 30px;
         }
         a {
             margin: 0 10px;
             text-decoration: none;
             color: #333;
+        }
+        .section {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
         }
     </style>
 </head>
@@ -58,6 +73,24 @@
             <a href="#home">[Home]</a>
             <a href="#about">[About Me]</a>
             <a href="#socials">[Socials]</a>
+        </div>
+        
+        <div id="home" class="section">
+            <h2>Home</h2>
+            <p>Welcome to my personal website! Here you'll find information about me, my interests, and my work. Feel free to explore and get to know me better.</p>
+        </div>
+        
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>I'm Jacob Alvarado, a passionate individual with interests in technology, design, and creativity. I love learning new things and sharing my knowledge with others. In my free time, I enjoy coding, reading, and exploring nature.</p>
+        </div>
+        
+        <div id="socials" class="section">
+            <h2>Socials</h2>
+            <p>Connect with me on various social media platforms to stay updated on my latest projects and thoughts. You can find me on:</p>
+            <p>Twitter: @jacob_alvarado<br>
+            LinkedIn: jacobalvarado<br>
+            GitHub: jacob-alvarado</p>
         </div>
     </div>
 </body>
