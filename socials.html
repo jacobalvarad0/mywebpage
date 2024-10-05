@@ -11,11 +11,18 @@
         body {
             font-family: 'JetBrains Mono', monospace;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
             background-color: #f0f0f0;
+        }
+        
+        .profile-image {
+            max-width: 300px;
+            border: 3px solid #000;
+            margin-bottom: 20px;
         }
         
         .social-links {
@@ -37,10 +44,11 @@
     </style>
 </head>
 <body>
+    <img src="https://tsundeity.wordpress.com/wp-content/uploads/2016/08/21st_century_boys_c07_011-copy.png" alt="Profile Image" class="profile-image">
     <div class="social-links">
-        <a href="mailto:your_email@example.com"><i class="far fa-envelope"></i></a>
         <a href="https://www.instagram.com/your_username" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="https://discord.gg/your_invite_code" target="_blank"><i class="fab fa-discord"></i></a>
+        <a href="mailto:your_email@example.com"><i class="far fa-envelope"></i></a>
         <a href="https://github.com/your_username" target="_blank"><i class="fab fa-github"></i></a>
         <a href="https://twitter.com/your_username" target="_blank"><i class="fab fa-twitter"></i></a>
     </div>
