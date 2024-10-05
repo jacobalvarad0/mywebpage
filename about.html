@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jacob Alvarado - About Me</title>
+    <title>About Me</title>
     <style>
         body {
             font-family: 'JetBrains Mono', monospace;
@@ -15,36 +15,47 @@
             margin: 0;
             padding: 20px;
             box-sizing: border-box;
+            line-height: 1.6;
         }
         #content {
-            width: 80%;
-            max-width: 800px;
+            width: 90%;
+            max-width: 1000px;
             text-align: left;
-            font-size: 0.9em;
-            margin-bottom: 20px;
+            font-size: 1.1em;
+            margin-bottom: 30px;
         }
         img {
-            border: 3px solid black;
+            border: 4px solid black;
             float: left;
-            margin-right: 15px;
-            width: 150px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            width: 250px;
             height: auto;
         }
         .links {
-            margin-top: 20px;
+            margin-top: 30px;
         }
         .links a {
-            margin: 0 10px;
+            margin: 0 15px;
             text-decoration: none;
             color: #333;
+            font-size: 1.1em;
+        }
+        @media (max-width: 768px) {
+            #content {
+                font-size: 1em;
+            }
+            img {
+                width: 200px;
+            }
         }
     </style>
 </head>
 <body>
     <div id='content'>
         <img src="https://mangaes.com/wp-content/uploads/2020/06/billy_014.jpg" alt="Image">
-        <p>I'm a 30-year-old resident of San Antonio, Texas, with a passion for both technology and personal growth. As an avid coder, I'm constantly honing my skills and exploring new technologies, which aligns perfectly with my love for learning. When I'm not immersed in code, you'll likely find me engrossed in a good book or catching up on the latest movies and TV shows.
-        Family is at the core of my values, and I cherish the moments spent with my loved ones. I'm currently engaged and looking forward to starting this new chapter of my life with my fiancé. San Antonio, with its rich history and vibrant culture, provides the perfect backdrop for both my professional endeavors and personal interests, allowing me to pursue my hobbies while maintaining strong connections with the people who matter most to me.</p>
+        <p>I'm a 30-year-old resident of San Antonio, Texas, with a passion for both technology and personal growth. As an avid coder, I'm constantly honing my skills and exploring new technologies, which aligns perfectly with my love for learning. When I'm not immersed in code, you'll likely find me engrossed in a good book or catching up on the latest movies and TV shows.</p>
+        <p>Family is at the core of my values, and I cherish the moments spent with my loved ones. I'm currently engaged and looking forward to starting this new chapter of my life with my fiancé. San Antonio, with its rich history and vibrant culture, provides the perfect backdrop for both my professional endeavors and personal interests, allowing me to pursue my hobbies while maintaining strong connections with the people who matter most to me.</p>
     </div>
     <div class="links">
         <a href="index">[Home]</a>
