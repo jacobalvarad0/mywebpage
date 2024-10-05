@@ -6,22 +6,37 @@
     <title>About Me</title>
     <style>
         body {
-            font-family: 'JetBrains Mono', sans-serif;
+            font-family: 'JetBrains Mono', monospace;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
-            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
         }
         #content {
-            width: 60%;
+            width: 80%;
+            max-width: 800px;
             text-align: left;
+            font-size: 0.9em;
+            margin-bottom: 20px;
         }
         img {
-            border: 5px solid black;
+            border: 3px solid black;
             float: left;
             margin-right: 15px;
+            width: 150px;
+            height: auto;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
         }
     </style>
 </head>
@@ -30,6 +45,11 @@
         <img src="https://mangaes.com/wp-content/uploads/2020/06/billy_014.jpg" alt="Image">
         <p>I'm a 30-year-old resident of San Antonio, Texas, with a passion for both technology and personal growth. As an avid coder, I'm constantly honing my skills and exploring new technologies, which aligns perfectly with my love for learning. When I'm not immersed in code, you'll likely find me engrossed in a good book or catching up on the latest movies and TV shows.
         Family is at the core of my values, and I cherish the moments spent with my loved ones. I'm currently engaged and looking forward to starting this new chapter of my life with my fiancé. San Antonio, with its rich history and vibrant culture, provides the perfect backdrop for both my professional endeavors and personal interests, allowing me to pursue my hobbies while maintaining strong connections with the people who matter most to me.</p>
+    </div>
+    <div class="links">
+        <a href="index">[Home]</a>
+        <a href="about">[About Me]</a>
+        <a href="socials">[Socials]</a>
     </div>
 </body>
 </html>
