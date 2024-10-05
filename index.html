@@ -3,79 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jacob Alvarado</title>
-    <link href="https://fonts.cdnfonts.com/css/jetbrains-mono" rel="stylesheet">
-    <link rel="pngegg" sizes="180x180" href="pngegg.png">
+    <title>About Me</title>
     <style>
         body {
+            font-family: 'JetBrains Mono', monospace;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
             margin: 0;
-            font-family: 'JetBrains Mono', monospace;
             padding: 20px;
+            box-sizing: border-box;
         }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        #content {
+            width: 80%;
             max-width: 800px;
-            width: 100%;
-        }
-        h1 {
-            font-weight: bold;
+            text-align: left;
+            font-size: 0.9em;
             margin-bottom: 20px;
-            font-size: 36px;
-            color: #000000;
         }
-        .image {
-            width: 300px;
-            height: 300px;
-            overflow: hidden;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            border: 5px solid #333;
-        }
-        .image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+        img {
+            border: 3px solid black;
+            float: left;
+            margin-right: 15px;
+            width: 150px;
+            height: auto;
         }
         .links {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 30px;
+            margin-top: 20px;
         }
-        a {
+        .links a {
             margin: 0 10px;
             text-decoration: none;
             color: #333;
         }
-        .section {
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        h2 {
-            color: #333;
-            margin-bottom: 10px;
-        }
-        p {
-            line-height: 1.6;
-        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="image">
-            <img src="https://i.pinimg.com/736x/51/f4/f7/51f4f7c8f39c2480690280dbd14ff449.jpg" alt="Centered Image">
-        </div>
-        <p> "The measure of a man is what he does with power." ― Plato</p>
-        <div class="links">
-            <a href="index">[Home]</a>
-            <a href="about">[About Me]</a>
-            <a href="socials">[Socials]</a>
-        </div>
+    <div id='content'>
+        <img src="https://mangaes.com/wp-content/uploads/2020/06/billy_014.jpg" alt="Image">
+        <p>I'm a 30-year-old resident of San Antonio, Texas, with a passion for both technology and personal growth. As an avid coder, I'm constantly honing my skills and exploring new technologies, which aligns perfectly with my love for learning. When I'm not immersed in code, you'll likely find me engrossed in a good book or catching up on the latest movies and TV shows.
+        Family is at the core of my values, and I cherish the moments spent with my loved ones. I'm currently engaged and looking forward to starting this new chapter of my life with my fiancé. San Antonio, with its rich history and vibrant culture, provides the perfect backdrop for both my professional endeavors and personal interests, allowing me to pursue my hobbies while maintaining strong connections with the people who matter most to me.</p>
+    </div>
+    <div class="links">
+        <a href="index">[Home]</a>
+        <a href="about">[About Me]</a>
+        <a href="socials">[Socials]</a>
     </div>
 </body>
 </html>
